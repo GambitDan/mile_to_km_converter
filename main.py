@@ -7,7 +7,7 @@ window.config(padx=40, pady=75)
 
 
 def convert():
-    miles = int(input.get())
+    miles = float(input.get())
     km = round(miles * 1.60934, 2)
     output["text"] = km
 
